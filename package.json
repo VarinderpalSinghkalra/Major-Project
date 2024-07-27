@@ -1,50 +1,65 @@
 {
-  "name": "minor",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+  "_args": [
+    [
+      "yallist@2.1.2",
+      "C:\\Users\\Arya\\Desktop\\SUMMER\\PRO\\server\\api"
+    ]
+  ],
+  "_from": "yallist@2.1.2",
+  "_id": "yallist@2.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=",
+  "_location": "/yallist",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "yallist@2.1.2",
+    "name": "yallist",
+    "escapedName": "yallist",
+    "rawSpec": "2.1.2",
+    "saveSpec": null,
+    "fetchSpec": "2.1.2"
   },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "^8.2.14",
-    "@angular/common": "^8.2.14",
-    "@angular/compiler": "^8.2.14",
-    "@angular/core": "^8.2.14",
-    "@angular/forms": "^8.2.14",
-    "@angular/platform-browser": "^8.2.14",
-    "@angular/platform-browser-dynamic": "^8.2.14",
-    "@angular/router": "^8.2.14",
-    "bootstrap": "^4.5.2",
-    "form": "^0.2.4",
-    "jquery": "^3.5.1",
-    "rxjs": "~6.4.0",
-    "tslib": "^1.13.0",
-    "zone.js": "~0.9.1"
+  "_requiredBy": [
+    "/lru-cache"
+  ],
+  "_resolved": "https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz",
+  "_spec": "2.1.2",
+  "_where": "C:\\Users\\Arya\\Desktop\\SUMMER\\PRO\\server\\api",
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/"
   },
+  "bugs": {
+    "url": "https://github.com/isaacs/yallist/issues"
+  },
+  "dependencies": {},
+  "description": "Yet Another Linked List",
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.803.29",
-    "@angular/cli": "^8.3.29",
-    "@angular/compiler-cli": "^8.2.14",
-    "@angular/language-service": "^8.2.14",
-    "@types/jasmine": "~3.3.8",
-    "@types/jasminewd2": "^2.0.8",
-    "@types/node": "~8.9.4",
-    "codelyzer": "^5.2.2",
-    "jasmine-core": "~3.4.0",
-    "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~4.1.0",
-    "karma-chrome-launcher": "~2.2.0",
-    "karma-coverage-istanbul-reporter": "~2.0.1",
-    "karma-jasmine": "~2.0.1",
-    "karma-jasmine-html-reporter": "^1.5.4",
-    "protractor": "^5.4.4",
-    "ts-node": "~7.0.0",
-    "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
-  }
+    "tap": "^10.3.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "yallist.js",
+    "iterator.js"
+  ],
+  "homepage": "https://github.com/isaacs/yallist#readme",
+  "license": "ISC",
+  "main": "yallist.js",
+  "name": "yallist",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacs/yallist.git"
+  },
+  "scripts": {
+    "postpublish": "git push origin --all; git push origin --tags",
+    "postversion": "npm publish",
+    "preversion": "npm test",
+    "test": "tap test/*.js --100"
+  },
+  "version": "2.1.2"
 }
